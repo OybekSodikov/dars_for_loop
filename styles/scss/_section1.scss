@@ -7,9 +7,9 @@
   .divv2 {
     display: flex;
     justify-content: space-between;
-    margin: 140px 188px ;
+    margin: 140px 188px;
     gap: 165px;
-   
+
     h2 {
       font-family: DM Sans;
       font-size: 50px;
@@ -30,9 +30,13 @@
       color: rgba(84, 84, 212, 1);
       text-decoration: none;
     }
-    div{
-        margin-top: 100px;
-        padding-right: 160px;
+    div {
+      margin-top: 100px;
+      padding-right: 160px;
     }
+  }
+  .divv3 {
+    @extend .divv2;
+
   }
 }

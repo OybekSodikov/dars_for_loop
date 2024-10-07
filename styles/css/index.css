@@ -436,13 +436,13 @@ main div p {
   justify-content: space-around;
   margin: 20px 186px 20px 140px;
 }
-.section1 .divv2 {
+.section1 .divv2, .section1 .divv3 {
   display: flex;
   justify-content: space-between;
   margin: 140px 188px;
   gap: 165px;
 }
-.section1 .divv2 h2 {
+.section1 .divv2 h2, .section1 .divv3 h2 {
   font-family: DM Sans;
   font-size: 50px;
   font-weight: 700;
@@ -450,7 +450,7 @@ main div p {
   letter-spacing: -1.5631583929px;
   text-align: left;
 }
-.section1 .divv2 p {
+.section1 .divv2 p, .section1 .divv3 p {
   font-family: Mulish;
   font-size: 20px;
   font-weight: 400;
@@ -458,15 +458,14 @@ main div p {
   letter-spacing: -0.6252632141px;
   text-align: left;
 }
-.section1 .divv2 a {
+.section1 .divv2 a, .section1 .divv3 a {
   color: rgb(84, 84, 212);
   text-decoration: none;
 }
-.section1 .divv2 div {
+.section1 .divv2 div, .section1 .divv3 div {
   margin-top: 100px;
   padding-right: 160px;
 }
-
 body {
   background-color: beige;
 }
