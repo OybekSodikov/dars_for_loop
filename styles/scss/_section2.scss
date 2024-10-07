@@ -1,6 +1,21 @@
-.sectiom2{
+.section2{
 
     .section2-img{
         display: flex;
+        justify-content: center;
+        gap: 74px;
+        text-align: center;
+    }
+    
+
+    .section2-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 242px;
+
+        .mon{
+            color: black;
+        }
     }
 }
