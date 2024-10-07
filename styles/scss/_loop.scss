@@ -1,70 +1,69 @@
 @import "uzgaruvchilar";
 
-
 @for $i from 1 to 6 {
   .mt-#{$i} {
     margin-top: $i * 10px;
   }
   .mb-#{$i} {
     margin-bottom: $i * 10px;
-}
+  }
   .ml-#{$i} {
     margin-left: $i * 10px;
-}
+  }
   .mr-#{$i} {
     margin-right: $i * 10px;
-}
-.mtrl-#{$i} {
+  }
+  .mtrl-#{$i} {
     margin-left: $i * 30px;
     margin-right: $i * 30px;
-}
-.pt-#{$i} {
+  }
+  .pt-#{$i} {
     padding-top: $i * 10px;
-}
-.pb-#{$i} {
+  }
+  .pb-#{$i} {
     padding-bottom: $i * 10px;
-}
-.pl-#{$i} {
+  }
+  .pl-#{$i} {
     padding-left: $i * 10px;
-}
-.pr-#{$i} {
+  }
+  .pr-#{$i} {
     padding-right: $i * 10px;
-}
-.ptb-#{$i} {
+  }
+  .ptb-#{$i} {
     padding-top: $i * 10px;
     padding-bottom: $i * 10px;
-}
-.plr-#{$i} {
+  }
+  .plr-#{$i} {
     padding-left: $i * 10px;
     padding-right: $i * 10px;
-}
-.mtb-#{$i} {
+  }
+  .mtb-#{$i} {
     margin-top: $i * 10px;
     margin-bottom: $i * 10px;
-}
-.mlr-#{$i} {
+  }
+  .mlr-#{$i} {
     margin-left: $i * 10px;
     margin-right: $i * 10px;
-}
+  }
 
-.fsize-#{$i} {
+  .fsize-#{$i} {
     font-size: $i * 16px;
-}
-.keng-#{$i} {
+  }
+  .keng-#{$i} {
     width: $i * 130px;
+  }
 }
-}
-@each $nomi, $rang in $ranglar{
-    .button-#{$nomi}{
-        background-color: $rang;
-        padding: 20px 60px;
-        border: none;
-        color: white;
-        border-radius: 10px;
-    }
+@each $nomi, $rang in $ranglar {
+  .button-#{$nomi} {
+    background-color: $rang;
+    padding: 20px 60px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
 
-    .text-#{$nomi}{
-        color: $rang;
-        font-size: 16px;
-    }
+  .text-#{$nomi} {
+    color: $rang;
+    font-size: 16px;
+  }
 }

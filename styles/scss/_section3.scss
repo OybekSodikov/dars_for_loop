@@ -63,23 +63,22 @@
       text-align: center;
     }
   }
-  .div2:hover{
-    box-shadow: 0px 0px 10px 5px rgb(204, 205, 204); 
+  .div2:hover {
+    box-shadow: 0px 0px 10px 5px rgb(204, 205, 204);
     transform: scale(1.03);
     transition: 0.5s;
-    
   }
-  .div1:hover{
-    box-shadow: 0px 0px 10px 5px rgb(204, 205, 204); 
+  .div1:hover {
+    box-shadow: 0px 0px 10px 5px rgb(204, 205, 204);
     transform: scale(1.03);
     transition: 0.5s;
     background: rgba(255, 113, 67, 1);
     color: white;
-    button{
-        background-color:rgba(159, 57, 25, 1);
-        color: white;
-        padding-inline:100px ;
-        font-family: DM Sans;
+    button {
+      background-color: rgba(159, 57, 25, 1);
+      color: white;
+      padding-inline: 100px;
+      font-family: DM Sans;
       font-size: 17px;
       font-weight: 700;
       line-height: 22.13px;

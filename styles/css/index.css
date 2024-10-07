@@ -542,9 +542,25 @@ main div p {
   letter-spacing: -0.5314737558px;
 }
 
+.section2 {
+  margin-inline: 150px;
+}
+.section2 .btn {
+  display: flex;
+  gap: 0px;
+  justify-content: center;
+}
+.section2 .btn .button-kuk {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.section2 .btn .button-oqroq {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
 .section2 .section2-img {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 74px;
   text-align: center;
 }
@@ -552,7 +568,8 @@ main div p {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 242px;
+  gap: 100px;
+  padding: 100px;
 }
 .section2 .section2-text .mon {
   color: black;
@@ -596,7 +613,7 @@ main div p {
 .section1 .div3 {
   display: flex;
   justify-content: center;
-  gap: 158px;
+  gap: 190px;
   align-items: center h2;
   align-items-font-family: DM Sans;
   align-items-font-size: 50px;
@@ -625,6 +642,7 @@ body {
   background-color: #fff;
   width: 1440px;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 a:hover {
@@ -638,5 +656,6 @@ button:hover {
   cursor: pointer;
   transform: scale(1.03);
   transition: 0.5s;
-  background: rgb(5, 65, 5);
+  background: rgb(31, 130, 31);
+  color: #fff;
 }/*# sourceMappingURL=index.css.map */

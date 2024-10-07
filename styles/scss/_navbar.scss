@@ -1,19 +1,18 @@
-nav{
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 185px;
+  ul {
+    margin-left: 60px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-inline: 185px;   
-    ul{
-        margin-left: 60px;
-        display: flex;
-        gap: 49px;
-        li{
-            list-style: none;
-            a{
-                color: rgba(105, 104, 113, 1);
-                text-decoration: none;
-            }
-        }
-    } 
-    
+    gap: 49px;
+    li {
+      list-style: none;
+      a {
+        color: rgba(105, 104, 113, 1);
+        text-decoration: none;
+      }
+    }
+  }
 }

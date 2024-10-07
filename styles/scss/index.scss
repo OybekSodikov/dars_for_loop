@@ -1,7 +1,7 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 @import "navbar";
 @import "main";
@@ -12,25 +12,26 @@
 @import "section2";
 @import "section1";
 
-body{
-    background-color: beige;
+body {
+  background-color: beige;
 }
 
-.container{
-    background-color: #fff;
-    width: 1440px;
-    margin: 0 auto;
-    
+.container {
+  background-color: #fff;
+  width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 40px;
 }
-a:hover{
+a:hover {
   color: rgb(161, 17, 65);
   border-bottom: 2px solid rgb(194, 24, 72);
   padding-bottom: 5px;
   transition: 0.5s;
 }
-button:hover{
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: 0.5s; 
-    background: rgb(5, 65, 5);
+button:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: 0.5s;
+  background: rgb(31, 130, 31);
+  color: #fff;
 }
