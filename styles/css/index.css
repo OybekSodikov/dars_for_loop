@@ -431,6 +431,10 @@ main div p {
   letter-spacing: -0.5314737558px;
 }
 
+.sectiom2 .section2-img {
+  display: flex;
+}
+
 .section1 .divv1 {
   display: flex;
   justify-content: space-around;
