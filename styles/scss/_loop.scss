@@ -14,6 +14,10 @@
   .mr-#{$i} {
     margin-right: $i * 10px;
 }
+.mtrl-#{$i} {
+    margin-left: $i * 30px;
+    margin-right: $i * 30px;
+}
 .pt-#{$i} {
     padding-top: $i * 10px;
 }
@@ -42,6 +46,13 @@
     margin-left: $i * 10px;
     margin-right: $i * 10px;
 }
+
+.fsize-#{$i} {
+    font-size: $i * 16px;
+}
+.keng-#{$i} {
+    width: $i * 130px;
+}
 }
 @each $nomi, $rang in $ranglar{
     .button-#{$nomi}{
@@ -50,5 +61,10 @@
         border: none;
         color: white;
         border-radius: 10px;
+    }
+
+    .text-#{$nomi}{
+        color: $rang;
+        font-size: 16px;
     }
 }
